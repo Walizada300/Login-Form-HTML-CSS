@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("image/Library-Management.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    height: 80%;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px 12px 10px 10px;
+    font-family: sans-serif;
+}
+.up{
+    height: 50%;
+    background-image: url(image/Table_SIgn.gif);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+.up #p_1{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    top: 32%;
+    font-weight: bold;
+    font-size: 22px;
+}
+.up #p_2{
+    letter-spacing: 2px;
+    position: relative;
+    top: 35%;
+    font-size: 13px;
+}
+.up #p_3{
+    letter-spacing: 2px;
+    position: relative;
+    top: 40%;
+    font-size: 13px;
+    font-weight: bold;
+}
+.down{
+    text-align: center;
+    padding: 7% 16%;
+}
+.down h3{
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+    color: rgb(10, 29, 46);
+}
+.down input[type="text"],input[type="password"]{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background-color: rgb(10, 29, 46);
+    color: white;
+    text-align: center;
+}
+.down a{
+    text-decoration: none;
+    color: rgb(10, 29, 46);
+    margin: 0 12px;
+    font-weight: 600;
+    transition: 0.4s all;
+}
+.down a:hover{
+    color: rgb(199, 130, 3);
+    transition: 0.4s all;
+}
+.down input[type="submit"]{
+    margin-top: 15px;
+    padding: 9px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(10, 29, 46);
+    color: white;
+    transition: 0.4s all;
+    text-transform: uppercase;
+}
+.down input[type="submit"]:hover{
+    background-color: rgb(199, 130, 3);
+    transition: 0.4s all;
+}
